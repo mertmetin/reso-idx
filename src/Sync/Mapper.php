@@ -248,13 +248,16 @@ final class Mapper {
 	}
 
 	/**
-	 * An http(s) URL or a site-relative path (used by the demo feed), or ''.
+	 * An http(s) URL or a demo photo reference, or ''.
 	 *
 	 * @param mixed $value Raw value.
 	 */
 	private static function url( $value ): string {
 		$value = is_string( $value ) ? trim( $value ) : '';
-		return preg_match( '#^(https?://|/(?!/))#i', $value ) ? $value : '';
+		if ( preg_match( '#^' . preg_quote( DemoSource::PHOTO_SCHEME, '#' ) . '[A-Za-z0-9._-]+$#', $value ) ) {
+			return $value;
+		}
+		return preg_match( '#^https?://#i', $value ) ? $value : '';
 	}
 
 	/**

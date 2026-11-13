@@ -15,7 +15,7 @@ use ResoIdx\Tests\Support\MemoryStore;
 final class DemoSourceTest extends TestCase {
 
 	private function source(): DemoSource {
-		return new DemoSource( dirname( __DIR__, 2 ) . '/data/demo-listings.json', '/wp-content/plugins/reso-idx/' );
+		return new DemoSource( dirname( __DIR__, 2 ) . '/data/demo-listings.json' );
 	}
 
 	public function test_demo_feed_runs_through_the_real_pipeline(): void {
@@ -27,8 +27,15 @@ final class DemoSourceTest extends TestCase {
 		$this->assertGreaterThan( 40, $store->count() );
 		foreach ( $store->rows as $row ) {
 			$this->assertSame( 'Active', $row['status'] );
-			$this->assertStringStartsWith( '/wp-content/plugins/reso-idx/assets/demo/', $row['photos'][0] );
+			$this->assertStringStartsWith( DemoSource::PHOTO_SCHEME, $row['photos'][0], 'Stored without a site URL.' );
 		}
+	}
+
+	public function test_demo_photos_resolve_against_the_current_site(): void {
+		$base = 'https://playground.test/scope:abc/wp-content/plugins/reso-idx/';
+		$this->assertSame( $base . 'assets/demo/house-a.svg', DemoSource::photo_url( 'reso-idx-demo://house-a.svg', $base ) );
+		$this->assertSame( $base . 'assets/demo/passwd', DemoSource::photo_url( 'reso-idx-demo://../../etc/passwd', $base ), 'Only a file name is kept.' );
+		$this->assertSame( 'https://cdn.test/a.jpg', DemoSource::photo_url( 'https://cdn.test/a.jpg', $base ) );
 	}
 
 	public function test_demo_feed_includes_compliance_cases(): void {

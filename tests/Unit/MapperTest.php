@@ -108,6 +108,8 @@ final class MapperTest extends TestCase {
 			array( 'MediaURL' => 'https://img.test/plan.pdf', 'MediaCategory' => 'Document' ),
 			array( 'MediaURL' => 'javascript:alert(1)' ),
 			array( 'MediaURL' => '//evil.test/x.jpg' ),
+			array( 'MediaURL' => '/relative/x.jpg' ),
+			array( 'MediaURL' => 'reso-idx-demo://../x.svg' ),
 		);
 		$this->assertSame( array( 'https://img.test/ok.jpg' ), Mapper::photos( $media ) );
 	}

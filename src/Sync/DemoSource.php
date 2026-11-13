@@ -13,8 +13,15 @@ namespace ResoIdx\Sync;
  * The records use real RESO field names and go through the same Syncer and
  * Mapper as a live feed, so the demo exercises the real pipeline. Every
  * address, office and agent in the file is made up.
+ *
+ * Photos are stored as `reso-idx-demo://file.svg` and turned into real URLs
+ * only when a page is rendered (see photo_url()). Storing a full URL would
+ * break the images whenever the site moves, e.g. between WordPress
+ * Playground sessions, which run under a different path each time.
  */
 final class DemoSource implements Source {
+
+	public const PHOTO_SCHEME = 'reso-idx-demo://';
 
 	/**
 	 * Loaded records.
@@ -26,15 +33,27 @@ final class DemoSource implements Source {
 	/**
 	 * Set up the feed.
 	 *
-	 * @param string       $file      Path to the JSON file.
-	 * @param string       $asset_url Base URL for demo images.
-	 * @param list<string> $statuses  Displayable statuses.
+	 * @param string       $file     Path to the JSON file.
+	 * @param list<string> $statuses Displayable statuses.
 	 */
 	public function __construct(
 		private string $file,
-		private string $asset_url,
 		private array $statuses = array( 'Active' )
 	) {}
+
+	/**
+	 * Turn a stored demo photo reference into a URL under the plugin folder.
+	 * Any other URL is returned unchanged.
+	 *
+	 * @param string $url      Stored photo URL.
+	 * @param string $base_url The plugin's URL, ending in a slash.
+	 */
+	public static function photo_url( string $url, string $base_url ): string {
+		if ( ! str_starts_with( $url, self::PHOTO_SCHEME ) ) {
+			return $url;
+		}
+		return $base_url . 'assets/demo/' . rawurlencode( basename( substr( $url, strlen( self::PHOTO_SCHEME ) ) ) );
+	}
 
 	/**
 	 * Records after the cursor, oldest first.
@@ -74,8 +93,8 @@ final class DemoSource implements Source {
 	}
 
 	/**
-	 * Load the file once, point photos at the plugin's assets and make the
-	 * listing dates relative to today so the demo always looks current.
+	 * Load the file once, mark photos as demo images and make the listing
+	 * dates relative to today so the demo always looks current.
 	 *
 	 * @return list<array<string, mixed>>
 	 */
@@ -85,7 +104,6 @@ final class DemoSource implements Source {
 		}
 		$json = is_readable( $this->file ) ? (string) file_get_contents( $this->file ) : '[]'; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 		$data = json_decode( $json, true );
-		$base = rtrim( $this->asset_url, '/' ) . '/';
 
 		$this->records = array();
 		foreach ( is_array( $data ) ? $data : array() as $record ) {
@@ -96,7 +114,7 @@ final class DemoSource implements Source {
 				$record['ListingContractDate'] = gmdate( 'Y-m-d', time() - (int) $record['DaysOnMarket'] * DAY_IN_SECONDS );
 			}
 			foreach ( (array) ( $record['Media'] ?? array() ) as $i => $media ) {
-				$record['Media'][ $i ]['MediaURL'] = $base . ltrim( (string) $media['MediaURL'], '/' );
+				$record['Media'][ $i ]['MediaURL'] = self::PHOTO_SCHEME . basename( (string) $media['MediaURL'] );
 			}
 			$this->records[] = $record;
 		}

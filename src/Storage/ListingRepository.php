@@ -7,6 +7,8 @@
 
 namespace ResoIdx\Storage;
 
+use ResoIdx\Sync\DemoSource;
+
 // phpcs:disable WordPress.DB.DirectDatabaseQuery -- custom table; single rows and filter values are object-cached.
 // phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- the interpolated WHERE/ORDER BY come from SearchCriteria, which only emits fixed SQL with placeholders.
 // phpcs:disable WordPress.DB.PreparedSQLPlaceholders.ReplacementsWrongNumber -- the sniff can't count spread (...$args) replacements; SearchCriteriaTest checks they match.
@@ -234,7 +236,9 @@ final class ListingRepository implements ListingStore {
 		$photos = json_decode( (string) $row['photos'], true );
 		$detail = json_decode( (string) $row['details'], true );
 
-		$row['photos']         = is_array( $photos ) ? $photos : array();
+		$row['photos']         = is_array( $photos )
+			? array_map( static fn ( $url ): string => DemoSource::photo_url( (string) $url, RESO_IDX_URL ), $photos )
+			: array();
 		$row['details']        = is_array( $detail ) ? $detail : array();
 		$row['price']          = null === $row['price'] ? null : (int) $row['price'];
 		$row['beds']           = null === $row['beds'] ? null : (int) $row['beds'];

@@ -251,8 +251,7 @@ final class SyncService {
 	public static function source(): Source {
 		$settings = Settings::all();
 		if ( 'demo' === $settings['source'] ) {
-			// Site-relative image paths, so the demo survives a change of domain or port.
-			return new DemoSource( RESO_IDX_DIR . 'data/demo-listings.json', wp_make_link_relative( RESO_IDX_URL ), Settings::statuses() );
+			return new DemoSource( RESO_IDX_DIR . 'data/demo-listings.json', Settings::statuses() );
 		}
 		if ( '' === trim( (string) $settings['endpoint'] ) || '' === Settings::token() ) {
 			throw new \RuntimeException( esc_html__( 'Add the endpoint URL and access token in Settings → RESO IDX.', 'reso-idx' ) );

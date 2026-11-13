@@ -25,6 +25,7 @@ final class Plugin {
 	 */
 	public static function boot(): void {
 		Schema::maybe_upgrade();
+		self::maybe_refresh_demo();
 		SyncService::register();
 		Assets::register();
 		ListingPage::register();
@@ -40,6 +41,21 @@ final class Plugin {
 	}
 
 	/**
+	 * After an update, reload the demo listings so they pick up changes to the
+	 * demo data (1.0.0 stored photo URLs that broke when a site moved).
+	 */
+	private static function maybe_refresh_demo(): void {
+		if ( get_option( 'reso_idx_version' ) === RESO_IDX_VERSION ) {
+			return;
+		}
+		update_option( 'reso_idx_version', RESO_IDX_VERSION, false );
+		if ( Settings::is_demo() && false !== get_option( Settings::OPTION ) ) {
+			SyncService::reset();
+			SyncService::sync( 10 );
+		}
+	}
+
+	/**
 	 * Activation: create the table, schedule the sync, and load the demo feed
 	 * so a fresh install shows listings right away.
 	 */
@@ -48,6 +64,7 @@ final class Plugin {
 		if ( false === get_option( Settings::OPTION ) ) {
 			update_option( Settings::OPTION, Settings::defaults(), false );
 		}
+		update_option( 'reso_idx_version', RESO_IDX_VERSION, false );
 		ListingPage::add_rewrite_rule();
 		flush_rewrite_rules();
 		SyncService::schedule();
