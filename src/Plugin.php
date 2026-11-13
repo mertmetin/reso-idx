@@ -42,7 +42,7 @@ final class Plugin {
 
 	/**
 	 * After an update, reload the demo listings so they pick up changes to the
-	 * demo data (1.0.0 stored photo URLs that broke when a site moved).
+	 * demo data (1.0.0 photo URLs broke when a site moved; 1.0.2 uses real photos).
 	 */
 	private static function maybe_refresh_demo(): void {
 		if ( get_option( 'reso_idx_version' ) === RESO_IDX_VERSION ) {

@@ -14,7 +14,8 @@ namespace ResoIdx\Sync;
  * Mapper as a live feed, so the demo exercises the real pipeline. Every
  * address, office and agent in the file is made up.
  *
- * Photos are stored as `reso-idx-demo://file.svg` and turned into real URLs
+ * Demo photos are hosted on Unsplash. A photo bundled with the plugin would be
+ * stored as `reso-idx-demo://file.svg` and turned into a real URL
  * only when a page is rendered (see photo_url()). Storing a full URL would
  * break the images whenever the site moves, e.g. between WordPress
  * Playground sessions, which run under a different path each time.
@@ -114,7 +115,11 @@ final class DemoSource implements Source {
 				$record['ListingContractDate'] = gmdate( 'Y-m-d', time() - (int) $record['DaysOnMarket'] * DAY_IN_SECONDS );
 			}
 			foreach ( (array) ( $record['Media'] ?? array() ) as $i => $media ) {
-				$record['Media'][ $i ]['MediaURL'] = self::PHOTO_SCHEME . basename( (string) $media['MediaURL'] );
+				$url = (string) $media['MediaURL'];
+				if ( ! preg_match( '#^https?://#i', $url ) ) {
+					// A bundled file: store a reference, resolved when the page renders.
+					$record['Media'][ $i ]['MediaURL'] = self::PHOTO_SCHEME . basename( $url );
+				}
 			}
 			$this->records[] = $record;
 		}

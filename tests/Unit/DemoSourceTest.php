@@ -27,8 +27,16 @@ final class DemoSourceTest extends TestCase {
 		$this->assertGreaterThan( 40, $store->count() );
 		foreach ( $store->rows as $row ) {
 			$this->assertSame( 'Active', $row['status'] );
-			$this->assertStringStartsWith( DemoSource::PHOTO_SCHEME, $row['photos'][0], 'Stored without a site URL.' );
+			$this->assertCount( 5, $row['photos'], 'Exterior, kitchen, living room, bedroom, bathroom.' );
+			$this->assertStringStartsWith( 'https://images.unsplash.com/', $row['photos'][0] );
 		}
+	}
+
+	public function test_every_demo_listing_has_its_own_exterior_photo(): void {
+		$store = new MemoryStore();
+		( new Syncer( $this->source(), $store, new Mapper() ) )->run( Cursor::start(), 100 );
+		$covers = array_map( static fn ( array $r ): string => $r['photos'][0], $store->rows );
+		$this->assertSame( count( $covers ), count( array_unique( $covers ) ) );
 	}
 
 	public function test_demo_photos_resolve_against_the_current_site(): void {

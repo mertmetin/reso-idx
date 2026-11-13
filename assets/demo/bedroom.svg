@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustration">
-<rect width="1200" height="800" fill="#ece6f0"/><rect y="560" width="1200" height="240" fill="#b99872"/>
-<rect x="760" y="120" width="300" height="300" fill="#cfe4f2" stroke="#ffffff" stroke-width="14"/><line x1="910" y1="120" x2="910" y2="420" stroke="#fff" stroke-width="10"/>
-<rect x="140" y="300" width="40" height="300" fill="#7a5a3a"/><rect x="160" y="440" width="560" height="140" fill="#ffffff"/><rect x="160" y="470" width="560" height="110" fill="#a8c5d6"/><rect x="200" y="400" width="160" height="60" rx="18" fill="#ffffff" stroke="#e1e1e1" stroke-width="4"/><rect x="380" y="400" width="160" height="60" rx="18" fill="#ffffff" stroke="#e1e1e1" stroke-width="4"/><rect x="580" y="510" width="130" height="90" fill="#7a5a3a"/><circle cx="645" cy="470" r="26" fill="#f4d58d"/></svg>

@@ -32,7 +32,7 @@ I'm a REALTOR® and a developer. I built the IDX search for my own brokerage sit
 - **Listing pages** at `/listing/{key}/{address}/`, with a photo gallery, details, a map, a canonical URL, Open Graph tags and `schema.org/RealEstateListing` JSON-LD. They work in both classic and block themes.
 - **REST API**: `GET /wp-json/reso-idx/v1/listings` and `/listings/{key}`.
 - **WP-CLI**: `wp reso-idx sync --all`, `reconcile`, `test-connection` and `status`.
-- **Demo feed**: 60 fictional listings in RESO format that go through the same sync code as a real feed.
+- **Demo feed**: 60 fictional listings in RESO format, each with its own photo set (exterior, kitchen, living room, bedroom, bathroom), that go through the same sync code as a real feed.
 
 <img src="docs/screenshots/listing.jpg" alt="Listing page" width="720">
 
@@ -156,7 +156,8 @@ tests/e2e/              Playground smoke test
 
 ## Data and licensing
 
-- Every listing, address, brokerage and agent in the demo feed is fictional, and the photos are drawings.
+- Every listing, address, brokerage and agent in the demo feed is fictional. Its photos come from [Unsplash](https://unsplash.com/license) and are loaded from Unsplash's servers; the photographers are credited in [docs/demo-photo-credits.md](docs/demo-photo-credits.md).
+- With a real feed, each listing shows its own photos from the MLS, filtered to the ones marked public and active.
 - The plugin itself contains no MLS data.
 - You are responsible for following your board's IDX rules on the site where you use it.
 

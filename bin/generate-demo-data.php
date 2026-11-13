@@ -26,11 +26,18 @@ $agents   = array( 'Alex Chen', 'Priya Natarajan', 'Sam Okafor', 'Jordan Leblanc
 $styles   = array( '2-Storey', 'Bungalow', 'Split Level', '1 1/2 Storey' );
 
 $types = array(
-	array( 'Residential', 'Single Family Residence', array( 'house-a.svg', 'house-b.svg', 'house-c.svg' ), array( 549000, 1490000 ), array( 3, 5 ) ),
-	array( 'Residential', 'Townhouse', array( 'townhouse.svg' ), array( 429000, 789000 ), array( 2, 4 ) ),
-	array( 'Residential', 'Condominium', array( 'condo.svg' ), array( 289000, 699000 ), array( 1, 3 ) ),
+	array( 'Residential', 'Single Family Residence', 'detached', array( 549000, 1490000 ), array( 3, 5 ) ),
+	array( 'Residential', 'Townhouse', 'townhouse', array( 429000, 789000 ), array( 2, 4 ) ),
+	array( 'Residential', 'Condominium', 'condo', array( 289000, 699000 ), array( 1, 3 ) ),
 );
-$interiors = array( 'kitchen.svg', 'living.svg', 'bedroom.svg' );
+
+// Photos from Unsplash (free licence), credited in docs/demo-photo-credits.md.
+// Every listing gets its own exterior of the right kind of home, plus a
+// kitchen, living room, bedroom and bathroom. Rooms are picked from $i, not
+// mt_rand(), so changing the photo pool never changes the listing data.
+$photos     = json_decode( (string) file_get_contents( dirname( __DIR__ ) . '/data/demo-photos.json' ), true );
+$next_photo = array( 'detached' => 0, 'townhouse' => 0, 'condo' => 0 );
+$photo_url  = static fn ( array $p ): string => $p['url'] . '?auto=format&fit=crop&w=1200&h=800&q=75';
 
 $openers = array(
 	'Sun-filled {home} on a quiet {street} in {hood}.',
@@ -53,7 +60,7 @@ $records   = array();
 
 for ( $i = 1; $i <= 60; $i++ ) {
 	list( $hood, $lat, $lng ) = $neighbourhoods[ $i % count( $neighbourhoods ) ];
-	list( $ptype, $sub, $exteriors, $price_range, $bed_range ) = $types[ mt_rand( 0, 9 ) < 6 ? 0 : ( mt_rand( 0, 1 ) ? 1 : 2 ) ];
+	list( $ptype, $sub, $kind, $price_range, $bed_range ) = $types[ mt_rand( 0, 9 ) < 6 ? 0 : ( mt_rand( 0, 1 ) ? 1 : 2 ) ];
 
 	$beds   = mt_rand( $bed_range[0], $bed_range[1] );
 	$baths  = max( 1, min( $beds, mt_rand( 1, 4 ) ) );
@@ -80,12 +87,24 @@ for ( $i = 1; $i <= 60; $i++ ) {
 	$remarks .= ' ' . implode( ' ', (array) $picked );
 
 	$media     = array();
-	$photo_set = array_merge( array( $exteriors[ mt_rand( 0, count( $exteriors ) - 1 ) ] ), $interiors );
-	foreach ( $photo_set as $order => $file ) {
+	mt_rand( 0, 2 ); // Kept so the seeded sequence, and so every listing's data, stays as in 1.0.
+	$exterior = $photos[ $kind ][ $next_photo[ $kind ]++ ] ?? null;
+	if ( null === $exterior ) {
+		fwrite( STDERR, "Not enough {$kind} photos in data/demo-photos.json\n" );
+		exit( 1 );
+	}
+	$photo_set = array(
+		$exterior,
+		$photos['kitchen'][ ( $i * 7 ) % count( $photos['kitchen'] ) ],
+		$photos['living'][ ( $i * 3 + 1 ) % count( $photos['living'] ) ],
+		$photos['bedroom'][ $i % count( $photos['bedroom'] ) ],
+		$photos['bathroom'][ ( $i * 2 + 1 ) % count( $photos['bathroom'] ) ],
+	);
+	foreach ( $photo_set as $order => $photo ) {
 		$media[] = array(
 			'MediaKey'          => sprintf( 'DEMO-%03d-M%d', $i, $order ),
 			'ResourceRecordKey' => sprintf( 'DEMO%05d', $i ),
-			'MediaURL'          => 'assets/demo/' . $file,
+			'MediaURL'          => $photo_url( $photo ),
 			'MediaCategory'     => 'Photo',
 			'MediaStatus'       => 'Active',
 			'Order'             => $order,
@@ -139,6 +158,16 @@ for ( $i = 1; $i <= 60; $i++ ) {
 
 	$records[] = array_filter( $record, static fn ( $v ): bool => null !== $v );
 }
+
+$credits = "# Demo photo credits\n\nThe demo listings are fictional. Their photos come from [Unsplash](https://unsplash.com) under the [Unsplash License](https://unsplash.com/license) and are loaded from Unsplash's servers. Thank you to these photographers:\n\n";
+foreach ( $photos as $group => $list ) {
+	$credits .= '## ' . ucfirst( $group ) . "\n\n";
+	foreach ( $list as $p ) {
+		$credits .= sprintf( "- [Photo](https://unsplash.com/photos/%s) by [%s](https://unsplash.com/@%s)\n", $p['id'], $p['photographer'], $p['username'] );
+	}
+	$credits .= "\n";
+}
+file_put_contents( dirname( __DIR__ ) . '/docs/demo-photo-credits.md', rtrim( $credits ) . "\n" );
 
 $out = dirname( __DIR__ ) . '/data/demo-listings.json';
 file_put_contents( $out, json_encode( $records, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "\n" );
