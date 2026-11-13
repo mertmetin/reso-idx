@@ -158,6 +158,21 @@
 			} ).addTo( map );
 			layer = window.L.featureGroup().addTo( map );
 			const pins = JSON.parse( mapEl.dataset.pins || '[]' );
+			// The map can start before its container has its final size (fonts,
+			// sticky layout, embedded frames). Redraw and refit when the size settles.
+			if ( window.ResizeObserver ) {
+				let touched = false;
+				mapEl.addEventListener( 'pointerdown', () => {
+					touched = true;
+				}, { once: true } );
+				new ResizeObserver( () => {
+					map.invalidateSize();
+					if ( ! touched && layer.getLayers().length && ! ( follow && follow.checked ) ) {
+						ignoreMove = true;
+						map.fitBounds( layer.getBounds(), { padding: [ 30, 30 ], maxZoom: 15 } );
+					}
+				} ).observe( mapEl );
+			}
 			if ( pins.length ) {
 				drawPins( pins, true );
 			} else {
