@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "reso-idx/listing-search",
+	"version": "1.0.0",
+	"title": "Listing Search",
+	"category": "widgets",
+	"icon": "admin-home",
+	"description": "MLS® listing search with filters, a map and results from your RESO feed.",
+	"keywords": [ "idx", "mls", "real estate", "listings", "homes" ],
+	"textdomain": "reso-idx",
+	"attributes": {
+		"perPage": { "type": "number", "default": 12 },
+		"showMap": { "type": "boolean", "default": true },
+		"city": { "type": "string", "default": "" },
+		"propertyType": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"editorScript": "file:./editor.js",
+	"style": "reso-idx"
+}

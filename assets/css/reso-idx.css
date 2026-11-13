@@ -1,0 +1,442 @@
+/*
+ * RESO IDX front-end styles.
+ *
+ * Inherits the theme's fonts and text colour. Change the look with the
+ * custom properties below, e.g. in your theme:
+ *   :root { --reso-idx-accent: #b5523b; }
+ */
+:root {
+	--reso-idx-accent: #1f5f8b;
+	--reso-idx-accent-contrast: #fff;
+	--reso-idx-border: color-mix(in srgb, currentColor 16%, transparent);
+	--reso-idx-muted: color-mix(in srgb, currentColor 64%, transparent);
+	--reso-idx-surface: color-mix(in srgb, currentColor 4%, transparent);
+	--reso-idx-radius: 10px;
+	--reso-idx-gap: 1.25rem;
+}
+
+.reso-idx-search,
+.reso-idx-listing {
+	box-sizing: border-box;
+	container-type: inline-size;
+}
+.reso-idx-search *,
+.reso-idx-listing * {
+	box-sizing: inherit;
+}
+
+/* Filters */
+.reso-idx-filters {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+	gap: 0.75rem;
+	align-items: end;
+	margin-bottom: var(--reso-idx-gap);
+}
+.reso-idx-filters__field--wide {
+	grid-column: span 2;
+}
+.reso-idx-filters__field label {
+	display: block;
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-bottom: 0.3rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-filters input,
+.reso-idx-filters select {
+	width: 100%;
+	min-height: 2.6rem;
+	padding: 0.45rem 0.6rem;
+	border: 1px solid var(--reso-idx-border);
+	border-radius: 6px;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+}
+.reso-idx-filters select option {
+	color: #1a1a1a;
+}
+.reso-idx-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 2.6rem;
+	padding: 0.5rem 1.2rem;
+	border: 1px solid var(--reso-idx-accent);
+	border-radius: 6px;
+	background: var(--reso-idx-accent);
+	color: var(--reso-idx-accent-contrast);
+	font: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+.reso-idx-button:hover,
+.reso-idx-button:focus-visible {
+	filter: brightness(1.1);
+}
+.reso-idx-button--outline {
+	background: transparent;
+	color: var(--reso-idx-accent);
+}
+
+/* Layout */
+.reso-idx-layout--map {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: var(--reso-idx-gap);
+}
+@container (min-width: 900px) {
+	.reso-idx-layout--map {
+		grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+	}
+	.reso-idx-map-wrap {
+		position: sticky;
+		top: 1rem;
+		align-self: start;
+	}
+	.reso-idx-map {
+		height: min(75vh, 720px) !important;
+	}
+}
+.reso-idx-map {
+	height: 320px;
+	border-radius: var(--reso-idx-radius);
+	border: 1px solid var(--reso-idx-border);
+	z-index: 0;
+}
+.reso-idx-map__toggle {
+	display: flex;
+	gap: 0.4rem;
+	align-items: center;
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-search.is-loading .reso-idx-results {
+	opacity: 0.5;
+	transition: opacity 0.15s;
+}
+
+/* Results */
+.reso-idx-results__count {
+	margin: 0 0 0.75rem;
+	font-weight: 600;
+}
+.reso-idx-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	gap: var(--reso-idx-gap);
+}
+.reso-idx-card {
+	border: 1px solid var(--reso-idx-border);
+	border-radius: var(--reso-idx-radius);
+	overflow: hidden;
+	transition: box-shadow 0.15s, transform 0.15s;
+}
+.reso-idx-card:hover,
+.reso-idx-card.is-active,
+.reso-idx-card:focus-within {
+	box-shadow: 0 6px 22px rgb(0 0 0 / 0.12);
+	transform: translateY(-2px);
+}
+.reso-idx-card__link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+.reso-idx-card__media {
+	position: relative;
+	aspect-ratio: 3 / 2;
+	background: var(--reso-idx-surface);
+}
+.reso-idx-card__media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.reso-idx-card__count {
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
+	padding: 0.15rem 0.5rem;
+	border-radius: 999px;
+	background: rgb(0 0 0 / 0.6);
+	color: #fff;
+	font-size: 0.75rem;
+}
+.reso-idx-card__body {
+	padding: 0.85rem 1rem 1rem;
+}
+.reso-idx-card__body p,
+.reso-idx-card__body h3 {
+	margin: 0;
+}
+.reso-idx-card__price {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.reso-idx-card__facts {
+	margin-top: 0.15rem !important;
+	font-size: 0.9rem;
+}
+.reso-idx-card__address {
+	margin-top: 0.5rem !important;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.3;
+}
+.reso-idx-card__locality,
+.reso-idx-card__office {
+	font-size: 0.85rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-card__office {
+	margin-top: 0.5rem !important;
+	font-size: 0.75rem;
+}
+.reso-idx-results__empty {
+	padding: 2rem;
+	border: 1px dashed var(--reso-idx-border);
+	border-radius: var(--reso-idx-radius);
+	text-align: center;
+}
+
+/* Pagination */
+.reso-idx-pagination {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	margin-top: var(--reso-idx-gap);
+}
+.reso-idx-pagination a {
+	padding: 0.4rem 0.9rem;
+	border: 1px solid var(--reso-idx-border);
+	border-radius: 6px;
+	color: inherit;
+	text-decoration: none;
+}
+.reso-idx-pagination a:hover {
+	border-color: var(--reso-idx-accent);
+	color: var(--reso-idx-accent);
+}
+
+/* Map pins */
+.reso-idx-pin {
+	background: none;
+	border: 0;
+}
+.reso-idx-pin span {
+	display: inline-block;
+	transform: translate(-50%, -50%);
+	padding: 0.15rem 0.45rem;
+	border-radius: 999px;
+	background: #fff;
+	color: #1a1a1a;
+	border: 1px solid rgb(0 0 0 / 0.25);
+	font: 600 12px/1.4 system-ui, sans-serif;
+	white-space: nowrap;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 0.25);
+}
+.reso-idx-pin.is-active span,
+.reso-idx-pin:hover span {
+	background: var(--reso-idx-accent);
+	color: var(--reso-idx-accent-contrast);
+	border-color: var(--reso-idx-accent);
+}
+.reso-idx-pin--dot span {
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	background: var(--reso-idx-accent);
+	border: 3px solid #fff;
+}
+
+/* Disclaimer */
+.reso-idx-disclaimer {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--reso-idx-border);
+	font-size: 0.75rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-disclaimer p {
+	margin: 0.25rem 0;
+}
+
+/* Listing page */
+.reso-idx-main {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 1.5rem 1rem 3rem;
+}
+.reso-idx-gallery {
+	position: relative;
+	border-radius: var(--reso-idx-radius);
+	overflow: hidden;
+	background: var(--reso-idx-surface);
+}
+.reso-idx-gallery__track {
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+}
+.reso-idx-gallery__track::-webkit-scrollbar {
+	display: none;
+}
+.reso-idx-gallery__track img {
+	flex: 0 0 100%;
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	max-height: 70vh;
+	object-fit: cover;
+	scroll-snap-align: start;
+}
+.reso-idx-gallery__nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 2.75rem;
+	height: 2.75rem;
+	border: 0;
+	border-radius: 50%;
+	background: rgb(255 255 255 / 0.9);
+	color: #1a1a1a;
+	font-size: 1.6rem;
+	line-height: 1;
+	cursor: pointer;
+}
+.reso-idx-gallery__nav--prev {
+	left: 0.75rem;
+}
+.reso-idx-gallery__nav--next {
+	right: 0.75rem;
+}
+.reso-idx-gallery__counter {
+	position: absolute;
+	right: 0.75rem;
+	bottom: 0.75rem;
+	margin: 0;
+	padding: 0.2rem 0.6rem;
+	border-radius: 999px;
+	background: rgb(0 0 0 / 0.6);
+	color: #fff;
+	font-size: 0.8rem;
+}
+.reso-idx-listing__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+.reso-idx-listing__header p,
+.reso-idx-listing__header h1 {
+	margin: 0;
+}
+.reso-idx-listing__address {
+	font-size: clamp(1.5rem, 3vw, 2.2rem);
+	line-height: 1.2;
+}
+.reso-idx-listing__locality,
+.reso-idx-listing__facts {
+	color: var(--reso-idx-muted);
+}
+.reso-idx-listing__price-wrap {
+	text-align: right;
+}
+.reso-idx-listing__price {
+	font-size: clamp(1.5rem, 3vw, 2.2rem);
+	font-weight: 700;
+}
+.reso-idx-listing__columns {
+	display: grid;
+	gap: 2rem;
+}
+@container (min-width: 820px) {
+	.reso-idx-listing__columns {
+		grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+	}
+	.reso-idx-listing__aside {
+		position: sticky;
+		top: 1rem;
+		align-self: start;
+	}
+}
+.reso-idx-listing h2 {
+	font-size: 1.2rem;
+	margin: 1.5rem 0 0.75rem;
+}
+.reso-idx-details {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 0.75rem 1.5rem;
+	margin: 0;
+}
+.reso-idx-details div {
+	padding-bottom: 0.6rem;
+	border-bottom: 1px solid var(--reso-idx-border);
+}
+.reso-idx-details dt {
+	font-size: 0.8rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-details dd {
+	margin: 0.1rem 0 0;
+	font-weight: 600;
+}
+.reso-idx-listing__map {
+	height: 320px;
+	border-radius: var(--reso-idx-radius);
+	z-index: 0;
+}
+.reso-idx-panel {
+	padding: 1.25rem;
+	border: 1px solid var(--reso-idx-border);
+	border-radius: var(--reso-idx-radius);
+	margin-top: 1.5rem;
+}
+.reso-idx-panel p {
+	margin: 0 0 0.5rem;
+}
+.reso-idx-panel__label {
+	font-size: 0.8rem;
+	color: var(--reso-idx-muted);
+}
+.reso-idx-panel__office {
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+	.reso-idx-filters__field--wide {
+		grid-column: 1 / -1;
+	}
+	.reso-idx-listing__price-wrap {
+		text-align: left;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.reso-idx-card {
+		transition: none;
+	}
+	.reso-idx-card:hover,
+	.reso-idx-card.is-active {
+		transform: none;
+	}
+}
+
+/* Shown until the map script loads, and in the block editor preview. */
+.reso-idx-map:empty {
+	display: grid;
+	place-items: center;
+	color: var(--reso-idx-muted);
+	font-size: 0.85rem;
+}
+.reso-idx-map:empty::after {
+	content: "Map";
+}

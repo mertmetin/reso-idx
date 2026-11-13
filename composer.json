@@ -1,0 +1,35 @@
+{
+	"name": "mertmetin/reso-idx",
+	"description": "WordPress plugin that syncs MLS listings from any RESO Web API feed and displays them with a search block, map and listing pages.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [ { "name": "Mert Metin", "homepage": "https://github.com/mertmetin" } ],
+	"require": {
+		"php": ">=8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.5",
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpstan/phpstan": "^2.1",
+		"szepeviktor/phpstan-wordpress": "^2.0",
+		"php-stubs/wp-cli-stubs": "^2.11"
+	},
+	"autoload": {
+		"psr-4": { "ResoIdx\\": "src/" }
+	},
+	"autoload-dev": {
+		"psr-4": { "ResoIdx\\Tests\\": "tests/" }
+	},
+	"scripts": {
+		"test": "phpunit",
+		"lint": "phpcs",
+		"analyse": "phpstan analyse --memory-limit=1G",
+		"demo-data": "php bin/generate-demo-data.php",
+		"check": [ "@lint", "@analyse", "@test" ]
+	},
+	"config": {
+		"sort-packages": true,
+		"allow-plugins": { "dealerdirect/phpcodesniffer-composer-installer": true }
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+	bootstrap="tests/bootstrap.php"
+	colors="true"
+	cacheDirectory=".phpunit.cache"
+	failOnWarning="true"
+	failOnRisky="true">
+	<testsuites>
+		<testsuite name="unit">
+			<directory>tests/Unit</directory>
+		</testsuite>
+	</testsuites>
+	<source>
+		<include>
+			<directory>src/Api</directory>
+			<directory>src/Sync</directory>
+			<directory>src/Storage</directory>
+		</include>
+		<exclude>
+			<file>src/Sync/SyncService.php</file>
+			<file>src/Storage/ListingRepository.php</file>
+			<file>src/Storage/Schema.php</file>
+			<file>src/Api/WpTransport.php</file>
+		</exclude>
+	</source>
+</phpunit>

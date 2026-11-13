@@ -1,0 +1,4708 @@
+[
+    {
+        "ListingKey": "DEMO00001",
+        "ListingId": "D1000037",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 315000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 750,
+        "YearBuilt": 2013,
+        "StreetNumber": "927",
+        "StreetName": "Heron",
+        "StreetSuffix": "Lane",
+        "UnitNumber": "2276",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 5X5",
+        "Latitude": 45.3316,
+        "Longitude": -75.78673,
+        "PublicRemarks": "Sun-filled 3-bedroom condo on a quiet lane in Lakeview Heights. Hardwood floors run through the main level. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 3308,
+        "AssociationFee": 481,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 8,
+        "ModificationTimestamp": "2026-11-01T12:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-001-M0",
+                "ResourceRecordKey": "DEMO00001",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-001-M1",
+                "ResourceRecordKey": "DEMO00001",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-001-M2",
+                "ResourceRecordKey": "DEMO00001",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-001-M3",
+                "ResourceRecordKey": "DEMO00001",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00002",
+        "ListingId": "D1000074",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 495000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 1024,
+        "YearBuilt": 2019,
+        "StreetNumber": "1267",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Court",
+        "UnitNumber": "1529",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 2X3",
+        "Latitude": 45.48414,
+        "Longitude": -75.52774,
+        "PublicRemarks": "Rarely offered 3-bedroom condo close to transit and shops in Northgate. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 5198,
+        "AssociationFee": 382,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 37,
+        "ModificationTimestamp": "2026-11-01T12:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-002-M0",
+                "ResourceRecordKey": "DEMO00002",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-002-M1",
+                "ResourceRecordKey": "DEMO00002",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-002-M2",
+                "ResourceRecordKey": "DEMO00002",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-002-M3",
+                "ResourceRecordKey": "DEMO00002",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00003",
+        "ListingId": "D1000111",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1095000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2104,
+        "YearBuilt": 1951,
+        "StreetNumber": "251",
+        "StreetName": "Cedar",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 6X8",
+        "Latitude": 45.28608,
+        "Longitude": -75.71748,
+        "PublicRemarks": "Rarely offered 4-bedroom detached home close to transit and shops in Cedar Park. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 11498,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 2,
+        "ModificationTimestamp": "2026-11-01T13:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-003-M0",
+                "ResourceRecordKey": "DEMO00003",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-003-M1",
+                "ResourceRecordKey": "DEMO00003",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-003-M2",
+                "ResourceRecordKey": "DEMO00003",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-003-M3",
+                "ResourceRecordKey": "DEMO00003",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00004",
+        "ListingId": "D1000148",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1265000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 2668,
+        "YearBuilt": 2010,
+        "StreetNumber": "1492",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Drive",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 7X2",
+        "Latitude": 45.39937,
+        "Longitude": -75.68068,
+        "PublicRemarks": "Sun-filled 3-bedroom detached home on a quiet drive in Riverside Commons. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 13283,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 17,
+        "ModificationTimestamp": "2026-11-01T13:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-004-M0",
+                "ResourceRecordKey": "DEMO00004",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-004-M1",
+                "ResourceRecordKey": "DEMO00004",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-004-M2",
+                "ResourceRecordKey": "DEMO00004",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-004-M3",
+                "ResourceRecordKey": "DEMO00004",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00005",
+        "ListingId": "D1000185",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 970000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 3201,
+        "YearBuilt": 1951,
+        "StreetNumber": "1565",
+        "StreetName": "Cedar",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 6X1",
+        "Latitude": 45.4215,
+        "Longitude": -75.68777,
+        "PublicRemarks": "Move-in ready 4-bedroom detached home steps from parks and schools in Millbrook. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 10185,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 52,
+        "ModificationTimestamp": "2026-11-01T13:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-005-M0",
+                "ResourceRecordKey": "DEMO00005",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-005-M1",
+                "ResourceRecordKey": "DEMO00005",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-005-M2",
+                "ResourceRecordKey": "DEMO00005",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-005-M3",
+                "ResourceRecordKey": "DEMO00005",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00006",
+        "ListingId": "D1000222",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 455000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1108,
+        "YearBuilt": 1981,
+        "StreetNumber": "2312",
+        "StreetName": "Heron",
+        "StreetSuffix": "Drive",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 8X3",
+        "Latitude": 45.3379,
+        "Longitude": -75.81534,
+        "PublicRemarks": "Rarely offered 2-bedroom townhome close to transit and shops in Lakeview Heights. Hardwood floors run through the main level. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 4778,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 2,
+        "ModificationTimestamp": "2026-11-01T14:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-006-M0",
+                "ResourceRecordKey": "DEMO00006",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-006-M1",
+                "ResourceRecordKey": "DEMO00006",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-006-M2",
+                "ResourceRecordKey": "DEMO00006",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-006-M3",
+                "ResourceRecordKey": "DEMO00006",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00007",
+        "ListingId": "D1000259",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 700000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1104,
+        "YearBuilt": 1968,
+        "StreetNumber": "899",
+        "StreetName": "Juniper",
+        "StreetSuffix": "Street",
+        "UnitNumber": "324",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 5X5",
+        "Latitude": 45.4539,
+        "Longitude": -75.50707,
+        "PublicRemarks": "Sun-filled 2-bedroom condo on a quiet street in Northgate. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 7350,
+        "AssociationFee": 385,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 51,
+        "ModificationTimestamp": "2026-11-01T14:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-007-M0",
+                "ResourceRecordKey": "DEMO00007",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-007-M1",
+                "ResourceRecordKey": "DEMO00007",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-007-M2",
+                "ResourceRecordKey": "DEMO00007",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-007-M3",
+                "ResourceRecordKey": "DEMO00007",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00008",
+        "ListingId": "D1000296",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1305000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2601,
+        "YearBuilt": 1956,
+        "StreetNumber": "2055",
+        "StreetName": "Willow",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 8X4",
+        "Latitude": 45.30084,
+        "Longitude": -75.7471,
+        "PublicRemarks": "Sun-filled 4-bedroom detached home on a quiet crescent in Cedar Park. Hardwood floors run through the main level. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Morgan Yilmaz",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 13703,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 49,
+        "ModificationTimestamp": "2026-11-01T14:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-008-M0",
+                "ResourceRecordKey": "DEMO00008",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-008-M1",
+                "ResourceRecordKey": "DEMO00008",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-008-M2",
+                "ResourceRecordKey": "DEMO00008",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-008-M3",
+                "ResourceRecordKey": "DEMO00008",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00009",
+        "ListingId": "D1000333",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 720000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3311,
+        "YearBuilt": 1998,
+        "StreetNumber": "1351",
+        "StreetName": "Larch",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 2X9",
+        "Latitude": 45.37827,
+        "Longitude": -75.64314,
+        "PublicRemarks": "Rarely offered 5-bedroom detached home close to transit and shops in Riverside Commons. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 7560,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 33,
+        "ModificationTimestamp": "2026-11-01T15:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-009-M0",
+                "ResourceRecordKey": "DEMO00009",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-009-M1",
+                "ResourceRecordKey": "DEMO00009",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-009-M2",
+                "ResourceRecordKey": "DEMO00009",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-009-M3",
+                "ResourceRecordKey": "DEMO00009",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00010",
+        "ListingId": "D1000370",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1040000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 1419,
+        "YearBuilt": 1950,
+        "StreetNumber": "676",
+        "StreetName": "Cedar",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 0X7",
+        "Latitude": 45.42296,
+        "Longitude": -75.71918,
+        "PublicRemarks": "Rarely offered 4-bedroom detached home close to transit and shops in Millbrook. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 10920,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 74,
+        "ModificationTimestamp": "2026-11-01T15:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-010-M0",
+                "ResourceRecordKey": "DEMO00010",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-010-M1",
+                "ResourceRecordKey": "DEMO00010",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-010-M2",
+                "ResourceRecordKey": "DEMO00010",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-010-M3",
+                "ResourceRecordKey": "DEMO00010",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00011",
+        "ListingId": "D1000407",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 505000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3056,
+        "YearBuilt": 1984,
+        "StreetNumber": "2140",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Lane",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 9X1",
+        "Latitude": 45.35713,
+        "Longitude": -75.81847,
+        "PublicRemarks": "Rarely offered 3-bedroom townhome close to transit and shops in Lakeview Heights. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 5303,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 65,
+        "ModificationTimestamp": "2026-11-01T15:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-011-M0",
+                "ResourceRecordKey": "DEMO00011",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-011-M1",
+                "ResourceRecordKey": "DEMO00011",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-011-M2",
+                "ResourceRecordKey": "DEMO00011",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-011-M3",
+                "ResourceRecordKey": "DEMO00011",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00012",
+        "ListingId": "D1000444",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 590000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1314,
+        "YearBuilt": 1968,
+        "StreetNumber": "46",
+        "StreetName": "Birch",
+        "StreetSuffix": "Crescent",
+        "UnitNumber": "1343",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 6X0",
+        "Latitude": 45.47758,
+        "Longitude": -75.50463,
+        "PublicRemarks": "Thoughtfully updated 2-bedroom condo with an open layout, tucked into Northgate. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6195,
+        "AssociationFee": 570,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 59,
+        "ModificationTimestamp": "2026-11-01T16:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-012-M0",
+                "ResourceRecordKey": "DEMO00012",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-012-M1",
+                "ResourceRecordKey": "DEMO00012",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-012-M2",
+                "ResourceRecordKey": "DEMO00012",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-012-M3",
+                "ResourceRecordKey": "DEMO00012",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00013",
+        "ListingId": "D1000481",
+        "StandardStatus": "Pending",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1450000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 2989,
+        "YearBuilt": 1955,
+        "StreetNumber": "1503",
+        "StreetName": "Hawthorn",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 5X3",
+        "Latitude": 45.30386,
+        "Longitude": -75.74364,
+        "PublicRemarks": "Rarely offered 3-bedroom detached home close to transit and shops in Cedar Park. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 15225,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 62,
+        "ModificationTimestamp": "2026-11-01T16:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-013-M0",
+                "ResourceRecordKey": "DEMO00013",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-013-M1",
+                "ResourceRecordKey": "DEMO00013",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-013-M2",
+                "ResourceRecordKey": "DEMO00013",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-013-M3",
+                "ResourceRecordKey": "DEMO00013",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00014",
+        "ListingId": "D1000518",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1385000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3264,
+        "YearBuilt": 1998,
+        "StreetNumber": "723",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 5X1",
+        "Latitude": 45.38013,
+        "Longitude": -75.68214,
+        "PublicRemarks": "Thoughtfully updated 4-bedroom detached home with an open layout, tucked into Riverside Commons. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 14543,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 4,
+        "ModificationTimestamp": "2026-11-01T16:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-014-M0",
+                "ResourceRecordKey": "DEMO00014",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-014-M1",
+                "ResourceRecordKey": "DEMO00014",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-014-M2",
+                "ResourceRecordKey": "DEMO00014",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-014-M3",
+                "ResourceRecordKey": "DEMO00014",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00015",
+        "ListingId": "D1000555",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1230000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 2279,
+        "YearBuilt": 2022,
+        "StreetNumber": "2132",
+        "StreetName": "Linden",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 2X7",
+        "Latitude": 45.41415,
+        "Longitude": -75.68159,
+        "PublicRemarks": "Thoughtfully updated 4-bedroom detached home with an open layout, tucked into Millbrook. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 12915,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 13,
+        "ModificationTimestamp": "2026-11-01T17:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-015-M0",
+                "ResourceRecordKey": "DEMO00015",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-015-M1",
+                "ResourceRecordKey": "DEMO00015",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-015-M2",
+                "ResourceRecordKey": "DEMO00015",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-015-M3",
+                "ResourceRecordKey": "DEMO00015",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00016",
+        "ListingId": "D1000592",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 935000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 2676,
+        "YearBuilt": 2004,
+        "StreetNumber": "488",
+        "StreetName": "Fieldstone",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 5X7",
+        "Latitude": 45.34316,
+        "Longitude": -75.80785,
+        "PublicRemarks": "Move-in ready 5-bedroom detached home steps from parks and schools in Lakeview Heights. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 9818,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 56,
+        "ModificationTimestamp": "2026-11-01T17:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-016-M0",
+                "ResourceRecordKey": "DEMO00016",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-016-M1",
+                "ResourceRecordKey": "DEMO00016",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-016-M2",
+                "ResourceRecordKey": "DEMO00016",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-016-M3",
+                "ResourceRecordKey": "DEMO00016",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00017",
+        "ListingId": "D1000629",
+        "StandardStatus": "Closed",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 705000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2436,
+        "YearBuilt": 2000,
+        "StreetNumber": "1778",
+        "StreetName": "Fieldstone",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 0X8",
+        "Latitude": 45.46996,
+        "Longitude": -75.53442,
+        "PublicRemarks": "Thoughtfully updated 4-bedroom detached home with an open layout, tucked into Northgate. Hardwood floors run through the main level. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 7403,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 55,
+        "ModificationTimestamp": "2026-11-01T17:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-017-M0",
+                "ResourceRecordKey": "DEMO00017",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-017-M1",
+                "ResourceRecordKey": "DEMO00017",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-017-M2",
+                "ResourceRecordKey": "DEMO00017",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-017-M3",
+                "ResourceRecordKey": "DEMO00017",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00018",
+        "ListingId": "D1000666",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 615000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 3128,
+        "YearBuilt": 2017,
+        "StreetNumber": "362",
+        "StreetName": "Orchard",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 2X2",
+        "Latitude": 45.30526,
+        "Longitude": -75.71507,
+        "PublicRemarks": "Thoughtfully updated 3-bedroom detached home with an open layout, tucked into Cedar Park. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 6458,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 27,
+        "ModificationTimestamp": "2026-11-01T18:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-018-M0",
+                "ResourceRecordKey": "DEMO00018",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-018-M1",
+                "ResourceRecordKey": "DEMO00018",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-018-M2",
+                "ResourceRecordKey": "DEMO00018",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-018-M3",
+                "ResourceRecordKey": "DEMO00018",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00019",
+        "ListingId": "D1000703",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 700000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1794,
+        "YearBuilt": 2018,
+        "StreetNumber": "1436",
+        "StreetName": "Willow",
+        "StreetSuffix": "Lane",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 1X4",
+        "Latitude": 45.39094,
+        "Longitude": -75.68802,
+        "PublicRemarks": "Rarely offered 4-bedroom detached home close to transit and shops in Riverside Commons. Hardwood floors run through the main level. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 7350,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 10,
+        "ModificationTimestamp": "2026-11-01T18:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-019-M0",
+                "ResourceRecordKey": "DEMO00019",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-019-M1",
+                "ResourceRecordKey": "DEMO00019",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-019-M2",
+                "ResourceRecordKey": "DEMO00019",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-019-M3",
+                "ResourceRecordKey": "DEMO00019",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00020",
+        "ListingId": "D1000740",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1195000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 2597,
+        "YearBuilt": 2016,
+        "StreetNumber": "909",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Street",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 3X4",
+        "Latitude": 45.42547,
+        "Longitude": -75.68256,
+        "PublicRemarks": "Sun-filled 5-bedroom detached home on a quiet street in Millbrook. The kitchen has quartz counters and a large island. Hardwood floors run through the main level. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 12548,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 50,
+        "ModificationTimestamp": "2026-11-01T18:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-020-M0",
+                "ResourceRecordKey": "DEMO00020",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-020-M1",
+                "ResourceRecordKey": "DEMO00020",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-020-M2",
+                "ResourceRecordKey": "DEMO00020",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-020-M3",
+                "ResourceRecordKey": "DEMO00020",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00021",
+        "ListingId": "D1000777",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 990000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1313,
+        "YearBuilt": 1969,
+        "StreetNumber": "1332",
+        "StreetName": "Heron",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 3X2",
+        "Latitude": 45.36222,
+        "Longitude": -75.78827,
+        "PublicRemarks": "Thoughtfully updated 3-bedroom detached home with an open layout, tucked into Lakeview Heights. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 10395,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 69,
+        "ModificationTimestamp": "2026-11-01T19:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-021-M0",
+                "ResourceRecordKey": "DEMO00021",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-021-M1",
+                "ResourceRecordKey": "DEMO00021",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-021-M2",
+                "ResourceRecordKey": "DEMO00021",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-021-M3",
+                "ResourceRecordKey": "DEMO00021",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00022",
+        "ListingId": "D1000814",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 605000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1088,
+        "YearBuilt": 2019,
+        "StreetNumber": "727",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Crescent",
+        "UnitNumber": "683",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 6X1",
+        "Latitude": 45.46697,
+        "Longitude": -75.53051,
+        "PublicRemarks": "Rarely offered 2-bedroom condo close to transit and shops in Northgate. The primary bedroom has a walk-in closet and ensuite. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6353,
+        "AssociationFee": 433,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 15,
+        "ModificationTimestamp": "2026-11-01T19:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-022-M0",
+                "ResourceRecordKey": "DEMO00022",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-022-M1",
+                "ResourceRecordKey": "DEMO00022",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-022-M2",
+                "ResourceRecordKey": "DEMO00022",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-022-M3",
+                "ResourceRecordKey": "DEMO00022",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00023",
+        "ListingId": "D1000851",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1090000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2737,
+        "YearBuilt": 1957,
+        "StreetNumber": "2193",
+        "StreetName": "Linden",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 5X6",
+        "Latitude": 45.29325,
+        "Longitude": -75.75275,
+        "PublicRemarks": "Move-in ready 5-bedroom detached home steps from parks and schools in Cedar Park. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 11445,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": false,
+        "DaysOnMarket": 38,
+        "ModificationTimestamp": "2026-11-01T19:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-023-M0",
+                "ResourceRecordKey": "DEMO00023",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-023-M1",
+                "ResourceRecordKey": "DEMO00023",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-023-M2",
+                "ResourceRecordKey": "DEMO00023",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-023-M3",
+                "ResourceRecordKey": "DEMO00023",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00024",
+        "ListingId": "D1000888",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 790000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 3341,
+        "YearBuilt": 1976,
+        "StreetNumber": "370",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Street",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 2X3",
+        "Latitude": 45.38485,
+        "Longitude": -75.6831,
+        "PublicRemarks": "Rarely offered 2-bedroom townhome close to transit and shops in Riverside Commons. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 8295,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 51,
+        "ModificationTimestamp": "2026-11-01T20:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-024-M0",
+                "ResourceRecordKey": "DEMO00024",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-024-M1",
+                "ResourceRecordKey": "DEMO00024",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-024-M2",
+                "ResourceRecordKey": "DEMO00024",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-024-M3",
+                "ResourceRecordKey": "DEMO00024",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00025",
+        "ListingId": "D1000925",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1025000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 2755,
+        "YearBuilt": 1967,
+        "StreetNumber": "2045",
+        "StreetName": "Cedar",
+        "StreetSuffix": "Lane",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X1X 4X0",
+        "Latitude": 45.42902,
+        "Longitude": -75.71419,
+        "PublicRemarks": "Sun-filled 3-bedroom detached home on a quiet lane in Millbrook. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 10763,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 2,
+        "ModificationTimestamp": "2026-11-01T20:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-025-M0",
+                "ResourceRecordKey": "DEMO00025",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-025-M1",
+                "ResourceRecordKey": "DEMO00025",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-025-M2",
+                "ResourceRecordKey": "DEMO00025",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-025-M3",
+                "ResourceRecordKey": "DEMO00025",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00026",
+        "ListingId": "D1000962",
+        "StandardStatus": "Pending",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 785000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1887,
+        "YearBuilt": 2022,
+        "StreetNumber": "830",
+        "StreetName": "Birch",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 9X7",
+        "Latitude": 45.36573,
+        "Longitude": -75.78926,
+        "PublicRemarks": "Rarely offered 2-bedroom townhome close to transit and shops in Lakeview Heights. A finished lower level adds a family room and office. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 8243,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 28,
+        "ModificationTimestamp": "2026-11-01T20:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-026-M0",
+                "ResourceRecordKey": "DEMO00026",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-026-M1",
+                "ResourceRecordKey": "DEMO00026",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-026-M2",
+                "ResourceRecordKey": "DEMO00026",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-026-M3",
+                "ResourceRecordKey": "DEMO00026",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00027",
+        "ListingId": "D1000999",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1375000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1135,
+        "YearBuilt": 1987,
+        "StreetNumber": "2267",
+        "StreetName": "Fieldstone",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 6X8",
+        "Latitude": 45.48082,
+        "Longitude": -75.52944,
+        "PublicRemarks": "Rarely offered 5-bedroom detached home close to transit and shops in Northgate. Hardwood floors run through the main level. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Morgan Yilmaz",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 14438,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 12,
+        "ModificationTimestamp": "2026-11-01T21:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-027-M0",
+                "ResourceRecordKey": "DEMO00027",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-027-M1",
+                "ResourceRecordKey": "DEMO00027",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-027-M2",
+                "ResourceRecordKey": "DEMO00027",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-027-M3",
+                "ResourceRecordKey": "DEMO00027",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00028",
+        "ListingId": "D1001036",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 785000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 2073,
+        "YearBuilt": 1973,
+        "StreetNumber": "927",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 5X3",
+        "Latitude": 45.28129,
+        "Longitude": -75.74597,
+        "PublicRemarks": "Sun-filled 4-bedroom townhome on a quiet court in Cedar Park. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 8243,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 57,
+        "ModificationTimestamp": "2026-11-01T21:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-028-M0",
+                "ResourceRecordKey": "DEMO00028",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-028-M1",
+                "ResourceRecordKey": "DEMO00028",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-028-M2",
+                "ResourceRecordKey": "DEMO00028",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-028-M3",
+                "ResourceRecordKey": "DEMO00028",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00029",
+        "ListingId": "D1001073",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 645000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 905,
+        "YearBuilt": 2018,
+        "StreetNumber": "1165",
+        "StreetName": "Hawthorn",
+        "StreetSuffix": "Crescent",
+        "UnitNumber": "1905",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 2X0",
+        "Latitude": 45.37872,
+        "Longitude": -75.65568,
+        "PublicRemarks": "Move-in ready 3-bedroom condo steps from parks and schools in Riverside Commons. Hardwood floors run through the main level. A finished lower level adds a family room and office. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6773,
+        "AssociationFee": 782,
+        "InternetEntireListingDisplayYN": false,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 42,
+        "ModificationTimestamp": "2026-11-01T21:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-029-M0",
+                "ResourceRecordKey": "DEMO00029",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-029-M1",
+                "ResourceRecordKey": "DEMO00029",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-029-M2",
+                "ResourceRecordKey": "DEMO00029",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-029-M3",
+                "ResourceRecordKey": "DEMO00029",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00030",
+        "ListingId": "D1001110",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 645000,
+        "BedroomsTotal": 1,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1102,
+        "YearBuilt": 1988,
+        "StreetNumber": "2393",
+        "StreetName": "Larch",
+        "StreetSuffix": "Drive",
+        "UnitNumber": "261",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 2X4",
+        "Latitude": 45.40375,
+        "Longitude": -75.71436,
+        "PublicRemarks": "Rarely offered 1-bedroom condo close to transit and shops in Millbrook. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6773,
+        "AssociationFee": 542,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 5,
+        "ModificationTimestamp": "2026-11-01T22:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-030-M0",
+                "ResourceRecordKey": "DEMO00030",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-030-M1",
+                "ResourceRecordKey": "DEMO00030",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-030-M2",
+                "ResourceRecordKey": "DEMO00030",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-030-M3",
+                "ResourceRecordKey": "DEMO00030",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00031",
+        "ListingId": "D1001147",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 680000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2647,
+        "YearBuilt": 1973,
+        "StreetNumber": "425",
+        "StreetName": "Birch",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X1X 2X6",
+        "Latitude": 45.36535,
+        "Longitude": -75.78694,
+        "PublicRemarks": "Sun-filled 5-bedroom detached home on a quiet way in Lakeview Heights. The kitchen has quartz counters and a large island. A finished lower level adds a family room and office. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 7140,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 16,
+        "ModificationTimestamp": "2026-11-01T22:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-031-M0",
+                "ResourceRecordKey": "DEMO00031",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-031-M1",
+                "ResourceRecordKey": "DEMO00031",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-031-M2",
+                "ResourceRecordKey": "DEMO00031",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-031-M3",
+                "ResourceRecordKey": "DEMO00031",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00032",
+        "ListingId": "D1001184",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 630000,
+        "BedroomsTotal": 1,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 865,
+        "YearBuilt": 1951,
+        "StreetNumber": "1165",
+        "StreetName": "Heron",
+        "StreetSuffix": "Lane",
+        "UnitNumber": "2118",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X3X 8X2",
+        "Latitude": 45.46964,
+        "Longitude": -75.50715,
+        "PublicRemarks": "Thoughtfully updated 1-bedroom condo with an open layout, tucked into Northgate. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6615,
+        "AssociationFee": 693,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 65,
+        "ModificationTimestamp": "2026-11-01T22:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-032-M0",
+                "ResourceRecordKey": "DEMO00032",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-032-M1",
+                "ResourceRecordKey": "DEMO00032",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-032-M2",
+                "ResourceRecordKey": "DEMO00032",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-032-M3",
+                "ResourceRecordKey": "DEMO00032",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00033",
+        "ListingId": "D1001221",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 720000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1998,
+        "YearBuilt": 2008,
+        "StreetNumber": "1351",
+        "StreetName": "Willow",
+        "StreetSuffix": "Lane",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X1X 4X8",
+        "Latitude": 45.29049,
+        "Longitude": -75.73702,
+        "PublicRemarks": "Move-in ready 4-bedroom detached home steps from parks and schools in Cedar Park. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 7560,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 61,
+        "ModificationTimestamp": "2026-11-01T23:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-033-M0",
+                "ResourceRecordKey": "DEMO00033",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-033-M1",
+                "ResourceRecordKey": "DEMO00033",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-033-M2",
+                "ResourceRecordKey": "DEMO00033",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-033-M3",
+                "ResourceRecordKey": "DEMO00033",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00034",
+        "ListingId": "D1001258",
+        "StandardStatus": "Closed",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 330000,
+        "BedroomsTotal": 1,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 726,
+        "YearBuilt": 2018,
+        "StreetNumber": "1988",
+        "StreetName": "Kestrel",
+        "StreetSuffix": "Court",
+        "UnitNumber": "292",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 4X1",
+        "Latitude": 45.38956,
+        "Longitude": -75.66208,
+        "PublicRemarks": "Move-in ready 1-bedroom condo steps from parks and schools in Riverside Commons. Hardwood floors run through the main level. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 3465,
+        "AssociationFee": 560,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 25,
+        "ModificationTimestamp": "2026-11-01T23:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-034-M0",
+                "ResourceRecordKey": "DEMO00034",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-034-M1",
+                "ResourceRecordKey": "DEMO00034",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-034-M2",
+                "ResourceRecordKey": "DEMO00034",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-034-M3",
+                "ResourceRecordKey": "DEMO00034",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00035",
+        "ListingId": "D1001295",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 590000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 2507,
+        "YearBuilt": 2023,
+        "StreetNumber": "1144",
+        "StreetName": "Aspen",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X4X 7X0",
+        "Latitude": 45.42304,
+        "Longitude": -75.71805,
+        "PublicRemarks": "Thoughtfully updated 3-bedroom detached home with an open layout, tucked into Millbrook. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 6195,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 22,
+        "ModificationTimestamp": "2026-11-01T23:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-035-M0",
+                "ResourceRecordKey": "DEMO00035",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-035-M1",
+                "ResourceRecordKey": "DEMO00035",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-035-M2",
+                "ResourceRecordKey": "DEMO00035",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-035-M3",
+                "ResourceRecordKey": "DEMO00035",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00036",
+        "ListingId": "D1001332",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1155000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3270,
+        "YearBuilt": 1960,
+        "StreetNumber": "1249",
+        "StreetName": "Linden",
+        "StreetSuffix": "Drive",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 9X8",
+        "Latitude": 45.33339,
+        "Longitude": -75.83485,
+        "PublicRemarks": "Thoughtfully updated 3-bedroom detached home with an open layout, tucked into Lakeview Heights. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 12128,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 43,
+        "ModificationTimestamp": "2026-11-02T00:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-036-M0",
+                "ResourceRecordKey": "DEMO00036",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-036-M1",
+                "ResourceRecordKey": "DEMO00036",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-036-M2",
+                "ResourceRecordKey": "DEMO00036",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-036-M3",
+                "ResourceRecordKey": "DEMO00036",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00037",
+        "ListingId": "D1001369",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 595000,
+        "BedroomsTotal": 1,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 757,
+        "YearBuilt": 1988,
+        "StreetNumber": "2377",
+        "StreetName": "Willow",
+        "StreetSuffix": "Court",
+        "UnitNumber": "451",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 7X5",
+        "Latitude": 45.4592,
+        "Longitude": -75.52164,
+        "PublicRemarks": "Sun-filled 1-bedroom condo on a quiet court in Northgate. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6248,
+        "AssociationFee": 729,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 42,
+        "ModificationTimestamp": "2026-11-02T00:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-037-M0",
+                "ResourceRecordKey": "DEMO00037",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-037-M1",
+                "ResourceRecordKey": "DEMO00037",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-037-M2",
+                "ResourceRecordKey": "DEMO00037",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-037-M3",
+                "ResourceRecordKey": "DEMO00037",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00038",
+        "ListingId": "D1001406",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1285000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 2224,
+        "YearBuilt": 2019,
+        "StreetNumber": "646",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 7X2",
+        "Latitude": 45.27388,
+        "Longitude": -75.73761,
+        "PublicRemarks": "Sun-filled 4-bedroom detached home on a quiet way in Cedar Park. The kitchen has quartz counters and a large island. Hardwood floors run through the main level. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 13493,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 44,
+        "ModificationTimestamp": "2026-11-02T00:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-038-M0",
+                "ResourceRecordKey": "DEMO00038",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-038-M1",
+                "ResourceRecordKey": "DEMO00038",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-038-M2",
+                "ResourceRecordKey": "DEMO00038",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-038-M3",
+                "ResourceRecordKey": "DEMO00038",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00039",
+        "ListingId": "D1001443",
+        "StandardStatus": "Pending",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 300000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 578,
+        "YearBuilt": 1973,
+        "StreetNumber": "101",
+        "StreetName": "Aspen",
+        "StreetSuffix": "Crescent",
+        "UnitNumber": "125",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 9X3",
+        "Latitude": 45.38694,
+        "Longitude": -75.68155,
+        "PublicRemarks": "Thoughtfully updated 3-bedroom condo with an open layout, tucked into Riverside Commons. A finished lower level adds a family room and office. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 3150,
+        "AssociationFee": 759,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 17,
+        "ModificationTimestamp": "2026-11-02T01:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-039-M0",
+                "ResourceRecordKey": "DEMO00039",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-039-M1",
+                "ResourceRecordKey": "DEMO00039",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-039-M2",
+                "ResourceRecordKey": "DEMO00039",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-039-M3",
+                "ResourceRecordKey": "DEMO00039",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00040",
+        "ListingId": "D1001480",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 475000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3329,
+        "YearBuilt": 1988,
+        "StreetNumber": "983",
+        "StreetName": "Birch",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 8X9",
+        "Latitude": 45.43584,
+        "Longitude": -75.71815,
+        "PublicRemarks": "Thoughtfully updated 4-bedroom townhome with an open layout, tucked into Millbrook. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 4988,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 3,
+        "ModificationTimestamp": "2026-11-02T01:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-040-M0",
+                "ResourceRecordKey": "DEMO00040",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-040-M1",
+                "ResourceRecordKey": "DEMO00040",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-040-M2",
+                "ResourceRecordKey": "DEMO00040",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-040-M3",
+                "ResourceRecordKey": "DEMO00040",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00041",
+        "ListingId": "D1001517",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 390000,
+        "BedroomsTotal": 1,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1221,
+        "YearBuilt": 1997,
+        "StreetNumber": "1887",
+        "StreetName": "Heron",
+        "StreetSuffix": "Drive",
+        "UnitNumber": "1352",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 7X7",
+        "Latitude": 45.34407,
+        "Longitude": -75.7998,
+        "PublicRemarks": "Move-in ready 1-bedroom condo steps from parks and schools in Lakeview Heights. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Large windows bring in light all day.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 4095,
+        "AssociationFee": 813,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 12,
+        "ModificationTimestamp": "2026-11-02T01:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-041-M0",
+                "ResourceRecordKey": "DEMO00041",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-041-M1",
+                "ResourceRecordKey": "DEMO00041",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-041-M2",
+                "ResourceRecordKey": "DEMO00041",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-041-M3",
+                "ResourceRecordKey": "DEMO00041",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00042",
+        "ListingId": "D1001554",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 625000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 2802,
+        "YearBuilt": 1986,
+        "StreetNumber": "1165",
+        "StreetName": "Birch",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X4X 0X1",
+        "Latitude": 45.48346,
+        "Longitude": -75.52181,
+        "PublicRemarks": "Move-in ready 5-bedroom detached home steps from parks and schools in Northgate. The kitchen has quartz counters and a large island. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6563,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 8,
+        "ModificationTimestamp": "2026-11-02T02:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-042-M0",
+                "ResourceRecordKey": "DEMO00042",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-042-M1",
+                "ResourceRecordKey": "DEMO00042",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-042-M2",
+                "ResourceRecordKey": "DEMO00042",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-042-M3",
+                "ResourceRecordKey": "DEMO00042",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00043",
+        "ListingId": "D1001591",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1335000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 1382,
+        "YearBuilt": 1998,
+        "StreetNumber": "1815",
+        "StreetName": "Fieldstone",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 3X5",
+        "Latitude": 45.27247,
+        "Longitude": -75.71927,
+        "PublicRemarks": "Sun-filled 4-bedroom detached home on a quiet crescent in Cedar Park. The kitchen has quartz counters and a large island. A finished lower level adds a family room and office. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 14018,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 50,
+        "ModificationTimestamp": "2026-11-02T02:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-043-M0",
+                "ResourceRecordKey": "DEMO00043",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-043-M1",
+                "ResourceRecordKey": "DEMO00043",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-043-M2",
+                "ResourceRecordKey": "DEMO00043",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-043-M3",
+                "ResourceRecordKey": "DEMO00043",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00044",
+        "ListingId": "D1001628",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 565000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1652,
+        "YearBuilt": 1992,
+        "StreetNumber": "1301",
+        "StreetName": "Fieldstone",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 0X2",
+        "Latitude": 45.39711,
+        "Longitude": -75.6472,
+        "PublicRemarks": "Move-in ready 2-bedroom townhome steps from parks and schools in Riverside Commons. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 5933,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 2,
+        "ModificationTimestamp": "2026-11-02T02:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-044-M0",
+                "ResourceRecordKey": "DEMO00044",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-044-M1",
+                "ResourceRecordKey": "DEMO00044",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-044-M2",
+                "ResourceRecordKey": "DEMO00044",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-044-M3",
+                "ResourceRecordKey": "DEMO00044",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00045",
+        "ListingId": "D1001665",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1205000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1374,
+        "YearBuilt": 1952,
+        "StreetNumber": "2324",
+        "StreetName": "Larch",
+        "StreetSuffix": "Street",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X4X 2X1",
+        "Latitude": 45.43512,
+        "Longitude": -75.6951,
+        "PublicRemarks": "Thoughtfully updated 5-bedroom detached home with an open layout, tucked into Millbrook. Hardwood floors run through the main level. A finished lower level adds a family room and office. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 12653,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 15,
+        "ModificationTimestamp": "2026-11-02T03:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-045-M0",
+                "ResourceRecordKey": "DEMO00045",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-045-M1",
+                "ResourceRecordKey": "DEMO00045",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-045-M2",
+                "ResourceRecordKey": "DEMO00045",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-045-M3",
+                "ResourceRecordKey": "DEMO00045",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00046",
+        "ListingId": "D1001702",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Condominium",
+        "ListPrice": 620000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 742,
+        "YearBuilt": 2000,
+        "StreetNumber": "1834",
+        "StreetName": "Heron",
+        "StreetSuffix": "Way",
+        "UnitNumber": "121",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X1X 5X9",
+        "Latitude": 45.3618,
+        "Longitude": -75.83112,
+        "PublicRemarks": "Sun-filled 3-bedroom condo on a quiet way in Lakeview Heights. The kitchen has quartz counters and a large island. Hardwood floors run through the main level. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Apartment"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 6510,
+        "AssociationFee": 530,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": false,
+        "DaysOnMarket": 70,
+        "ModificationTimestamp": "2026-11-02T03:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-046-M0",
+                "ResourceRecordKey": "DEMO00046",
+                "MediaURL": "assets/demo/condo.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-046-M1",
+                "ResourceRecordKey": "DEMO00046",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-046-M2",
+                "ResourceRecordKey": "DEMO00046",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-046-M3",
+                "ResourceRecordKey": "DEMO00046",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00047",
+        "ListingId": "D1001739",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 590000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2561,
+        "YearBuilt": 2004,
+        "StreetNumber": "525",
+        "StreetName": "Juniper",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 2X7",
+        "Latitude": 45.47845,
+        "Longitude": -75.51017,
+        "PublicRemarks": "Move-in ready 5-bedroom detached home steps from parks and schools in Northgate. Hardwood floors run through the main level. The primary bedroom has a walk-in closet and ensuite. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Riley Haddad",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 6195,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 51,
+        "ModificationTimestamp": "2026-11-02T03:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-047-M0",
+                "ResourceRecordKey": "DEMO00047",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-047-M1",
+                "ResourceRecordKey": "DEMO00047",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-047-M2",
+                "ResourceRecordKey": "DEMO00047",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-047-M3",
+                "ResourceRecordKey": "DEMO00047",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00048",
+        "ListingId": "D1001776",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 675000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 1283,
+        "YearBuilt": 1954,
+        "StreetNumber": "2181",
+        "StreetName": "Aspen",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 8X6",
+        "Latitude": 45.29158,
+        "Longitude": -75.7232,
+        "PublicRemarks": "Thoughtfully updated 5-bedroom detached home with an open layout, tucked into Cedar Park. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Priya Natarajan",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 7088,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 20,
+        "ModificationTimestamp": "2026-11-02T04:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-048-M0",
+                "ResourceRecordKey": "DEMO00048",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-048-M1",
+                "ResourceRecordKey": "DEMO00048",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-048-M2",
+                "ResourceRecordKey": "DEMO00048",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-048-M3",
+                "ResourceRecordKey": "DEMO00048",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00049",
+        "ListingId": "D1001813",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1400000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 4,
+        "LivingArea": 2418,
+        "YearBuilt": 1984,
+        "StreetNumber": "1814",
+        "StreetName": "Kestrel",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 9X0",
+        "Latitude": 45.40187,
+        "Longitude": -75.65298,
+        "PublicRemarks": "Sun-filled 4-bedroom detached home on a quiet court in Riverside Commons. Hardwood floors run through the main level. A finished lower level adds a family room and office. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 14700,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 66,
+        "ModificationTimestamp": "2026-11-02T04:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-049-M0",
+                "ResourceRecordKey": "DEMO00049",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-049-M1",
+                "ResourceRecordKey": "DEMO00049",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-049-M2",
+                "ResourceRecordKey": "DEMO00049",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-049-M3",
+                "ResourceRecordKey": "DEMO00049",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00050",
+        "ListingId": "D1001850",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1260000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 3241,
+        "YearBuilt": 1998,
+        "StreetNumber": "1649",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X7X 1X0",
+        "Latitude": 45.40502,
+        "Longitude": -75.69455,
+        "PublicRemarks": "Sun-filled 5-bedroom detached home on a quiet way in Millbrook. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Evergreen Realty Partners",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "1 1/2 Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 13230,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 50,
+        "ModificationTimestamp": "2026-11-02T04:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-050-M0",
+                "ResourceRecordKey": "DEMO00050",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-050-M1",
+                "ResourceRecordKey": "DEMO00050",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-050-M2",
+                "ResourceRecordKey": "DEMO00050",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-050-M3",
+                "ResourceRecordKey": "DEMO00050",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00051",
+        "ListingId": "D1001887",
+        "StandardStatus": "Closed",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 765000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 2206,
+        "YearBuilt": 2009,
+        "StreetNumber": "1039",
+        "StreetName": "Birch",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X9X 0X9",
+        "Latitude": 45.35949,
+        "Longitude": -75.8324,
+        "PublicRemarks": "Rarely offered 3-bedroom townhome close to transit and shops in Lakeview Heights. Hardwood floors run through the main level. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Northstar Realty Group",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 8033,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 22,
+        "ModificationTimestamp": "2026-11-02T05:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-051-M0",
+                "ResourceRecordKey": "DEMO00051",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-051-M1",
+                "ResourceRecordKey": "DEMO00051",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-051-M2",
+                "ResourceRecordKey": "DEMO00051",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-051-M3",
+                "ResourceRecordKey": "DEMO00051",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00052",
+        "ListingId": "D1001924",
+        "StandardStatus": "Pending",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1340000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1260,
+        "YearBuilt": 1963,
+        "StreetNumber": "535",
+        "StreetName": "Willow",
+        "StreetSuffix": "Street",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X4X 9X4",
+        "Latitude": 45.47001,
+        "Longitude": -75.51518,
+        "PublicRemarks": "Rarely offered 5-bedroom detached home close to transit and shops in Northgate. A finished lower level adds a family room and office. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 14070,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 31,
+        "ModificationTimestamp": "2026-11-02T05:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-052-M0",
+                "ResourceRecordKey": "DEMO00052",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-052-M1",
+                "ResourceRecordKey": "DEMO00052",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-052-M2",
+                "ResourceRecordKey": "DEMO00052",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-052-M3",
+                "ResourceRecordKey": "DEMO00052",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00053",
+        "ListingId": "D1001961",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 775000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3229,
+        "YearBuilt": 1954,
+        "StreetNumber": "93",
+        "StreetName": "Juniper",
+        "StreetSuffix": "Avenue",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 1X8",
+        "Latitude": 45.27766,
+        "Longitude": -75.75375,
+        "PublicRemarks": "Move-in ready 4-bedroom detached home steps from parks and schools in Cedar Park. The kitchen has quartz counters and a large island. The fenced backyard backs onto green space. Large windows bring in light all day.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 8138,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 10,
+        "ModificationTimestamp": "2026-11-02T05:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-053-M0",
+                "ResourceRecordKey": "DEMO00053",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-053-M1",
+                "ResourceRecordKey": "DEMO00053",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-053-M2",
+                "ResourceRecordKey": "DEMO00053",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-053-M3",
+                "ResourceRecordKey": "DEMO00053",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00054",
+        "ListingId": "D1001998",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 755000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 1694,
+        "YearBuilt": 2024,
+        "StreetNumber": "1876",
+        "StreetName": "Tamarack",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 6X2",
+        "Latitude": 45.38211,
+        "Longitude": -75.68653,
+        "PublicRemarks": "Move-in ready 3-bedroom detached home steps from parks and schools in Riverside Commons. Hardwood floors run through the main level. Recent updates include windows, furnace and roof. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 7928,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 22,
+        "ModificationTimestamp": "2026-11-02T06:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-054-M0",
+                "ResourceRecordKey": "DEMO00054",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-054-M1",
+                "ResourceRecordKey": "DEMO00054",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-054-M2",
+                "ResourceRecordKey": "DEMO00054",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-054-M3",
+                "ResourceRecordKey": "DEMO00054",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00055",
+        "ListingId": "D1002035",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Townhouse",
+        "ListPrice": 650000,
+        "BedroomsTotal": 2,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 3065,
+        "YearBuilt": 2023,
+        "StreetNumber": "358",
+        "StreetName": "Heron",
+        "StreetSuffix": "Lane",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X0X 0X0",
+        "Latitude": 45.42037,
+        "Longitude": -75.69827,
+        "PublicRemarks": "Thoughtfully updated 2-bedroom townhome with an open layout, tucked into Millbrook. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Taylor Brooks",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 6825,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 39,
+        "ModificationTimestamp": "2026-11-02T06:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-055-M0",
+                "ResourceRecordKey": "DEMO00055",
+                "MediaURL": "assets/demo/townhouse.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-055-M1",
+                "ResourceRecordKey": "DEMO00055",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-055-M2",
+                "ResourceRecordKey": "DEMO00055",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-055-M3",
+                "ResourceRecordKey": "DEMO00055",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00056",
+        "ListingId": "D1002072",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 975000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 2630,
+        "YearBuilt": 2010,
+        "StreetNumber": "989",
+        "StreetName": "Willow",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Lakeview Heights",
+        "StateOrProvince": "ON",
+        "PostalCode": "X6X 4X5",
+        "Latitude": 45.35759,
+        "Longitude": -75.80784,
+        "PublicRemarks": "Rarely offered 4-bedroom detached home close to transit and shops in Lakeview Heights. The kitchen has quartz counters and a large island. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Alex Chen",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 2,
+        "TaxAnnualAmount": 10238,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 45,
+        "ModificationTimestamp": "2026-11-02T06:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-056-M0",
+                "ResourceRecordKey": "DEMO00056",
+                "MediaURL": "assets/demo/house-c.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-056-M1",
+                "ResourceRecordKey": "DEMO00056",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-056-M2",
+                "ResourceRecordKey": "DEMO00056",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-056-M3",
+                "ResourceRecordKey": "DEMO00056",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00057",
+        "ListingId": "D1002109",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1285000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 3,
+        "LivingArea": 3362,
+        "YearBuilt": 1990,
+        "StreetNumber": "1343",
+        "StreetName": "Hawthorn",
+        "StreetSuffix": "Crescent",
+        "City": "Demo City",
+        "CityRegion": "Northgate",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 1X1",
+        "Latitude": 45.48594,
+        "Longitude": -75.51501,
+        "PublicRemarks": "Move-in ready 3-bedroom detached home steps from parks and schools in Northgate. The kitchen has quartz counters and a large island. Hardwood floors run through the main level. A finished lower level adds a family room and office.",
+        "ListOfficeName": "Hearthside Properties",
+        "ListAgentFullName": "Sam Okafor",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 13493,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 31,
+        "ModificationTimestamp": "2026-11-02T07:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-057-M0",
+                "ResourceRecordKey": "DEMO00057",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-057-M1",
+                "ResourceRecordKey": "DEMO00057",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-057-M2",
+                "ResourceRecordKey": "DEMO00057",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-057-M3",
+                "ResourceRecordKey": "DEMO00057",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00058",
+        "ListingId": "D1002146",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1225000,
+        "BedroomsTotal": 3,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 3244,
+        "YearBuilt": 2004,
+        "StreetNumber": "2176",
+        "StreetName": "Sumac",
+        "StreetSuffix": "Drive",
+        "City": "Demo City",
+        "CityRegion": "Cedar Park",
+        "StateOrProvince": "ON",
+        "PostalCode": "X8X 5X6",
+        "Latitude": 45.29246,
+        "Longitude": -75.73741,
+        "PublicRemarks": "Move-in ready 3-bedroom detached home steps from parks and schools in Cedar Park. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. The fenced backyard backs onto green space.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "2-Storey"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 1,
+        "TaxAnnualAmount": 12863,
+        "InternetEntireListingDisplayYN": false,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 27,
+        "ModificationTimestamp": "2026-11-02T07:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-058-M0",
+                "ResourceRecordKey": "DEMO00058",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-058-M1",
+                "ResourceRecordKey": "DEMO00058",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-058-M2",
+                "ResourceRecordKey": "DEMO00058",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-058-M3",
+                "ResourceRecordKey": "DEMO00058",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00059",
+        "ListingId": "D1002183",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 945000,
+        "BedroomsTotal": 4,
+        "BathroomsTotalInteger": 2,
+        "LivingArea": 3121,
+        "YearBuilt": 1957,
+        "StreetNumber": "712",
+        "StreetName": "Cedar",
+        "StreetSuffix": "Way",
+        "City": "Demo City",
+        "CityRegion": "Riverside Commons",
+        "StateOrProvince": "ON",
+        "PostalCode": "X2X 4X1",
+        "Latitude": 45.4045,
+        "Longitude": -75.66867,
+        "PublicRemarks": "Move-in ready 4-bedroom detached home steps from parks and schools in Riverside Commons. The primary bedroom has a walk-in closet and ensuite. The fenced backyard backs onto green space. Recent updates include windows, furnace and roof.",
+        "ListOfficeName": "Bluewater Realty",
+        "ListAgentFullName": "Jordan Leblanc",
+        "ArchitecturalStyle": [
+            "Split Level"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 3,
+        "TaxAnnualAmount": 9923,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 34,
+        "ModificationTimestamp": "2026-11-02T07:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-059-M0",
+                "ResourceRecordKey": "DEMO00059",
+                "MediaURL": "assets/demo/house-b.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-059-M1",
+                "ResourceRecordKey": "DEMO00059",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-059-M2",
+                "ResourceRecordKey": "DEMO00059",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-059-M3",
+                "ResourceRecordKey": "DEMO00059",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    },
+    {
+        "ListingKey": "DEMO00060",
+        "ListingId": "D1002220",
+        "StandardStatus": "Active",
+        "PropertyType": "Residential",
+        "PropertySubType": "Single Family Residence",
+        "ListPrice": 1315000,
+        "BedroomsTotal": 5,
+        "BathroomsTotalInteger": 1,
+        "LivingArea": 1926,
+        "YearBuilt": 1966,
+        "StreetNumber": "1678",
+        "StreetName": "Heron",
+        "StreetSuffix": "Court",
+        "City": "Demo City",
+        "CityRegion": "Millbrook",
+        "StateOrProvince": "ON",
+        "PostalCode": "X5X 2X9",
+        "Latitude": 45.40887,
+        "Longitude": -75.72195,
+        "PublicRemarks": "Thoughtfully updated 5-bedroom detached home with an open layout, tucked into Millbrook. The primary bedroom has a walk-in closet and ensuite. A finished lower level adds a family room and office. Large windows bring in light all day.",
+        "ListOfficeName": "Keystone Home Brokerage",
+        "ListAgentFullName": "Casey Fournier",
+        "ArchitecturalStyle": [
+            "Bungalow"
+        ],
+        "Heating": [
+            "Forced Air",
+            "Natural Gas"
+        ],
+        "Cooling": [
+            "Central Air"
+        ],
+        "ParkingTotal": 4,
+        "TaxAnnualAmount": 13808,
+        "InternetEntireListingDisplayYN": true,
+        "InternetAddressDisplayYN": true,
+        "DaysOnMarket": 61,
+        "ModificationTimestamp": "2026-11-02T08:00:00Z",
+        "Media": [
+            {
+                "MediaKey": "DEMO-060-M0",
+                "ResourceRecordKey": "DEMO00060",
+                "MediaURL": "assets/demo/house-a.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 0,
+                "PreferredPhotoYN": true
+            },
+            {
+                "MediaKey": "DEMO-060-M1",
+                "ResourceRecordKey": "DEMO00060",
+                "MediaURL": "assets/demo/kitchen.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 1,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-060-M2",
+                "ResourceRecordKey": "DEMO00060",
+                "MediaURL": "assets/demo/living.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 2,
+                "PreferredPhotoYN": false
+            },
+            {
+                "MediaKey": "DEMO-060-M3",
+                "ResourceRecordKey": "DEMO00060",
+                "MediaURL": "assets/demo/bedroom.svg",
+                "MediaCategory": "Photo",
+                "MediaStatus": "Active",
+                "Order": 3,
+                "PreferredPhotoYN": false
+            }
+        ]
+    }
+]
